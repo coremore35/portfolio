@@ -1,3 +1,8 @@
+
+body {
+  font-family: 'Catamaran', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
 header {
     position: relative;
     background-color: black;
@@ -116,3 +121,14 @@ header {
     margin: 10px, 10px, 10px, 10px
   }
   
+  .about {
+    padding: 6rem
+  }
+
+  .dev-icons .list-inline-item i:hover {
+    color: rgb(56, 180, 189);
+  }
+
+  .see-more {
+    text-align: center
+  }

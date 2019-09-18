@@ -8,14 +8,22 @@
   <title>Corey Morrison Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/7c4baf1a72.js"></script>
+
 </head>
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">HEY LOGO</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">CORE</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -61,20 +69,11 @@
 
 
 
-  <section class="page-section bg-primary text-white mb-0" id="about">
+  <section class="page-section about bg-warning text-dark mb-0" id="about">
     <div class="container">
-
       <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-dark">About</h2>
 
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
 
       <!-- About Me Section Content -->
       <div class="container">
@@ -110,11 +109,16 @@
                 quote has keywords associated with it, which are utilized to run through another API hosted by Unsplash.
                 This enables the application to target images with a similar tag. The application also allows for the
                 user to search for a quote based on a keyword.</p>
+              <div class="see-more">
+                <a class="btn btn-warning text-center see-more" href="https://coremore35.github.io/" role="button">See
+                  More...</a>
+              </div>
               <br><br>
             </div>
           </div>
         </div>
-        <!-- Plus Tier -->
+
+
         <div class="col-lg-3">
           <div class="card mb-5 mb-lg-0">
             <div class="card-header"></div>
@@ -133,6 +137,10 @@
                 min/max players,playtime, game description. It also has full CRUD functionality, as the user is able to
                 add whether or not they own the game, have placed it on a wish list, their personal rating, and notes
                 about game play.</p>
+              <div class="see-more">
+                <a class="btn btn-warning text-center see-more" href="https://game-den.herokuapp.com/boardgames"
+                  role="button">See More...</a>
+              </div>
             </div>
           </div>
         </div>
@@ -155,7 +163,11 @@
                 while
                 also
                 finding their friend's profiles and viewing their reviews</p>
-              <br><br><br><br><br>
+              <div class="see-more">
+                <a class="btn btn-warning text-center see-more" href="http://good_tomatoes.surge.sh/" role="button">See
+                  More...</a>
+              </div>
+              <br><br><br><br>
             </div>
           </div>
         </div>
@@ -177,7 +189,11 @@
                 dicta dolores, sapiente eligendi ipsa voluptatem consequuntur similique nobis deserunt eum nulla, sit,
                 quam maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, consequatur. Atque porro
                 ullam dicta quam, reiciendis ratione pariatur deserunt impedit, at dolores dolore! </p>
-              <br>
+              <div class="see-more">
+                <a class="btn btn-warning text-center see-more" href="https://teachers-aide.netlify.com"
+                  role="button">See More...</a>
+              </div>
+
             </div>
           </div>
         </div>
@@ -189,64 +205,118 @@
 
 
   <!-- Skills -->
-  <div class="skills-items">
-    <h3>SKILLS</h3>
-    <div class="item">HTML5</div>
-    <div class="item">CSS3</div>
-    <div class="item">JavaScript</div>
-    <div class="item">React</div>
-    <div class="item">jQuery</div>
-    <div class="item">Node.js</div>
-    <div class="item">MongoDB</div>
-    <div class="item">EJS</div>
-    <div class="item">Express</div>
-    <div class="item">PostgreSQL</div>
-    <div class="item">Ruby</div>
-    <div class="item">Rails</div>
-    <div class="item">Github</div>
-  </div>
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+    <div class="w-100">
+      <div class="subheading mb-3 text-center text-uppercase text-dark">
+        <h3>SKILLS</h3>
+      </div>
+      <div class="skills-items list-inline dev-icons">
+        <ul>
+          <li class="list-inline-item">
+            <i class="fab fa-html5 fa-4x"></i>
+          </li>
+
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt fa-4x"></i>
+          </li>
+
+          <li class="list-inline-item">
+            <i class="fab fa-js-square fa-4x"></i>
+          </li>
+
+          <li class="list-inline-item">
+            <i class="fab fa-react fa-4x"></i>
+          </li>
+
+          <li class="list-inline-item"><img style="max-width: 150px" src="images/JQuery.png"
+              class="modal-dialog-centered"></li>
+
+          <li class="list-inline-item">
+            <i class="fab fa-node-js fa-4x"></i>
+          </li>
+
+          <li class="list-inline-item"><img style="max-width: 150px" src="images/MongoDB_Logo_FullColorBlack_RGB.png"
+              class="modal-dialog-centered">
+          </li>
+
+          <li class="list-inline-item">
+            <i class="fab fa-npm fa-4x"></i>
+          </li>
+
+          <li class="list-inline-item">
+            <h4 class="align-middle" style="color: #a91d50"><%= EJS %></h4>
+          </li>
+
+          <li class="list-inline-item" style="font-family:Helvetica-Neue">
+            <h4>Express</h4>
+          </li>
+
+          <li class="list-inline-item"><img style="max-width: 50px" src="images/PostgreSQL_logo.3colors.120x120.png"
+              class="modal-dialog-centered">PostgreSQL</li>
+
+          <li class="list-inline-item"><img style="max-width: 50px" src="images/ruby.png"
+              class="modal-dialog-centered" /></li>
+          <li class="list-inline-item"><img src="./images/Ruby_On_Rails_Logo.png" style="max-width: 150px"
+              class="modal-dialog-centered" /></li>
+          <li class="list-inline-item">
+            <i class="fab fa-github fa-4x"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
   <!-- Background Section -->
-  <div class="background">
+  <div class="background see-more">
     <h3>BACKGROUND</h3>
-    <div class="education">
-      <h4>Teaching</h4>
-      <p></p>
+    <a href="https://resume.creddle.io/resume/597jowgslyy" class="btn-lg btn-warning text-center see-more">Click to
+      Download Resume</a>
+  </div>
+
+
+
+
+
+
+  <section class="page-section about bg-dark text-white mb-0" id="about">
+    <div class="container">
+      <h2 class="page-section-heading text-center text-uppercase text-white">CONTACT</h2>
+      <div class="col-lg-8-ctr ml-auto">
+        <!-- Contact Section -->
+        <div class="container">
+          <form action="https://mailthis.to/coremoreDEV" method="POST" encType="multipart/form-data">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your name" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="email" name="_replyto" placeholder="Your email" class="form-control">
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Enter your message here" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="file" name="file" placeholder="Attachments (optional)" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="hidden" name="_subject" value="Contact form submitted" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="hidden" name="_after" value="https://myhomepage.net/" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="hidden" name="_honeypot" value="" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="hidden" name="_confirmation" value="" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+      </div>
     </div>
-  </div>
-
-  <!-- Contact Section -->
-  <div class="container">
-    <form action="https://mailthis.to/example" method="POST" encType="multipart/form-data">
-      <h3>Contact Form (example)</h3>
-      <!-- Name -->
-      <input type="email" name="name" placeholder="Your name">
-      <!-- Email -->
-      <input type="email" name="email" placeholder="you@mail.com">
-      <!-- Phone Number -->
-      <input type="text" name="phone" placeholder="+1 (255) 555-5555">
-      <!-- Textarea (Message) -->
-      <textarea name="message" placeholder="Enter your message here" style="height:90px"></textarea>
-      <!-- File attachments -->
-      <input type="file" name="file" placeholder="">
-
-      <!-- Optional (hidden) fields -->
-      <!-- Custom email Subject -->
-      <input type="hidden" name="_subject" value="Contact form submitted">
-      <!-- Custom email ReplyTo Address -->
-      <input type="hidden" name="_replyto" value="foo@bar.co">
-      <!-- Redirect to a page after recaptcha -->
-      <input type="hidden" name="_after" value="https://myhomepage.net/">
-      <!-- Honeypot (to catch comment spam bots) -->
-      <input type="hidden" name="_honeypot" value="">
-      <!-- Apply a custom confirmation message on the second step -->
-      <input type="hidden" name="_confirmation" value="">
-
-      <!-- Submit Button -->
-      <input type="submit" name="submit" value="Submit Form" class="btn btn-primary">
-    </form>
-  </div>
-
+  </section>
   <!-- Footer -->
 
   <footer class="page-footer font-small bg-primary text-light">
