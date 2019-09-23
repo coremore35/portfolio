@@ -26,6 +26,7 @@ header {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
   }
+
   
   header .container {
     position: relative;
@@ -121,8 +122,8 @@ header {
     margin: 10px, 10px, 10px, 10px
   }
   
-  .about {
-    padding: 6rem
+  .about, .my-projects, .skills, .background, .contact {
+    padding: 3rem
   }
 
   .dev-icons .list-inline-item i:hover {
@@ -140,5 +141,9 @@ header {
 
   }
 
- 
-  
+  .projects::before {
+    content: "";
+    display: block;
+    margin-top: -50px;
+    position: absolute;
+}

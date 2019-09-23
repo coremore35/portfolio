@@ -21,7 +21,7 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="page-top">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <h3>CM</h3>
@@ -37,7 +37,7 @@
             <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#my-projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -90,10 +90,10 @@
 
 
 
-  <section class="projects py-5" id="projects">
-    <div class="page-section-heading text-center text-uppercase text-dark">
-      <h2>Projects</h2>
-    </div>
+  <section class="projects py-5" id="my-projects">
+
+    <h2 class="page-section-heading text-center text-uppercase text-dark my-projects">Projects</h2>
+
     <div class="container">
       <div class="row">
         <div class="col-lg-3">
@@ -109,8 +109,10 @@
             <div class="card-body">
               <h5 class="card-title text-muted text-uppercase text-center">QuoteLoft</h5>
 
-              <p>The application begins working upon loading displaying a random quote from an API hosted by FavQs. Each
-                quote has keywords associated with it, which are utilized to run through another API hosted by Unsplash.
+              <p>The application begins working upon loading displaying a random quote from an API hosted by FavQs.
+                Each
+                quote has keywords associated with it, which are utilized to run through another API hosted by
+                Unsplash.
                 This enables the application to target images with a similar tag. The application also allows for the
                 user to search for a quote based on a keyword.</p>
               <div class="see-more">
@@ -141,8 +143,10 @@
               <h5 class="card-title text-muted text-uppercase text-center">Game Den</h5>
 
               <p>This application works to create a database of any games you either own or have played. When adding a
-                game into your database, it links up with the Board Game Atlas API to pull information, such as, images,
-                min/max players,playtime, game description. It also has full CRUD functionality, as the user is able to
+                game into your database, it links up with the Board Game Atlas API to pull information, such as,
+                images,
+                min/max players,playtime, game description. It also has full CRUD functionality, as the user is able
+                to
                 add whether or not they own the game, have placed it on a wish list, their personal rating, and notes
                 about game play.</p>
               <div class="see-more">
@@ -226,7 +230,7 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
     <div class="w-100">
       <div class="subheading mb-3 text-center text-uppercase text-dark">
-        <h3>SKILLS</h3>
+        <h3 class="skills">SKILLS</h3>
       </div>
       <div class="skills-items list-inline dev-icons">
         <ul>
@@ -283,6 +287,7 @@
       </div>
     </div>
   </section>
+  </div>
 
   <!-- Background Section -->
   <div class="background see-more" id="background">
